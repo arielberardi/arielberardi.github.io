@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -euo pipefail
+
+echo "Running ESLint..."
+pnpm lint
+
+echo "Checking formatting..."
+pnpm format
