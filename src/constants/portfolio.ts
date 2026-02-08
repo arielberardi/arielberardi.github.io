@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   name: "Ariel Berardi",
   role: "Software Engineer",
   intro:
-    "Full-stack developer specializing in TypeScript-based web applications with React, Next.js, and AWS serverless architectures. Known for systematic problem-solving and delivering reliable solutions through thorough troubleshooting and debugging. Collaborates effectively with clients, stakeholders, and cross-functional teams to translate business needs into technical solutions. Actively integrates AI tools to accelerate development workflows while staying current with emerging technologies to enhance user experiences.",
+    "Experience in building TypeScript-based web applications with React, Next.js, and AWS serverless architectures. Known for systematic problem-solving and delivering reliable solutions through thorough troubleshooting and debugging. Collaborates effectively with clients, stakeholders, and cross-functional teams to translate business needs into technical solutions. Actively integrates AI tools to accelerate development workflows while staying current with emerging technologies to enhance user experiences.",
   email: "ariel.berardi95@gmail.com",
   location: {
     city: "Marlow",
