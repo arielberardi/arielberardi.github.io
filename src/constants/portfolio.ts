@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   name: "Ariel Berardi",
   role: "Software Engineer",
   intro:
-    "Software Engineer with several years of experience solving complex problems and building high-quality applications. Strong focus on Front-End development, with solid Back-End experience and a good understanding of cloud-based and automated delivery environments. Adaptable, proactive, and quick to learn new domains independently in fast-paced environments.",
+    "Full-stack developer specializing in TypeScript-based web applications with React, Next.js, and AWS serverless architectures. Known for systematic problem-solving and delivering reliable solutions through thorough troubleshooting and debugging. Collaborates effectively with clients, stakeholders, and cross-functional teams to translate business needs into technical solutions. Actively integrates AI tools to accelerate development workflows while staying current with emerging technologies to enhance user experiences.",
   email: "ariel.berardi95@gmail.com",
   location: {
     city: "Marlow",
@@ -14,15 +14,15 @@ export const PERSONAL_INFO = {
 
 export const WORK_EXPERIENCES: WorkExperience[] = [
   {
-    role: "Front-end Developer",
+    role: "Software Engineer",
     company: "Infosys Limited",
     dateRange: "2023 - Present",
     achievements: [
-      "Developed and maintained front-end web applications for embedded Linux Set-Top Boxes (STBs) with strict CPU and memory constraints, using vanilla JavaScript, TypeScript, and React.js while integrating with vendor's REST API",
-      "Designed and built internal web platforms for application delivery and operational workflows using TypeScript, React.js, and AWS",
-      "Built internal tooling systems using Next.js, Prisma, Tailwind CSS, ShadCN, and Node.js for back-end services, with CI/CD pipelines implemented in Jenkins",
-      "Investigated and resolved production issues through log analysis, network analysis, and cross-team collaboration with internal stakeholders and external vendors to identify root causes and deliver fixes",
-      "Developed automated testing frameworks in Python using Robot Framework, integrating AI-driven enhancements with PyTorch to improve test effectiveness and reduce manual QA effort",
+      "Developed and maintained frontend web applications using JavaScript, TypeScript, and React for set-top boxes and smart TV.",
+      "Built internal web platforms and tooling using React, Next.js, Tailwind CSS, and AWS.",
+      "Integrated frontend applications with REST APIs and collaborated with backend engineers on implementation details.",
+      "Investigated and resolved production issues through log analysis, debugging, and cross-team collaboration.",
+      "Worked with designers and stakeholders to deliver user-facing features and improvements.",
     ],
   },
   {
@@ -30,21 +30,21 @@ export const WORK_EXPERIENCES: WorkExperience[] = [
     company: "Disney Streaming",
     dateRange: "2021 - 2022",
     achievements: [
-      "Delivered and supported vendor integration of the Disney+ application on embedded Linux Set-Top Boxes (STBs), collaborating closely with clients and cross-functional teams to ensure successful deployment.",
-      "Troubleshot and performed root cause analysis for production issues using log analysis, network inspection, and pair programming to identify and resolve performance, stability, and integration problems.",
-      "Developed internal tooling to automate deployment and delivery processes using Python scripts, improving efficiency and reducing manual effort.",
-      "Built web-based dashboards and visualization tools in TypeScript and React.js to monitor configuration and system status.",
+      "Supported integration and delivery of the Disney+ application on embedded Linux platforms.",
+      "Built internal dashboards and visualization tools using React and TypeScript to monitor system configuration and status.",
+      "Troubleshot production issues through log analysis, network inspection, and collaboration with cross-functional teams.",
+      "Developed automation scripts and internal tooling to improve operational efficiency.",
     ],
   },
   {
-    role: "Back-end Developer",
+    role: "Software Engineer",
     company: "Qubika",
     dateRange: "2020 - 2021",
     achievements: [
-      "Developed and maintained back-end systems for a banking application using Ruby on Rails and PostgreSQL, supporting transaction processing, account management, and customer portals. Design and implement REST API for mobile app usage.",
-      "Implemented new features and fixed QA reported bugs in close collaboration with designers and product stakeholders, ensuring user facing improvements.",
-      "Deployed applications using Docker containers and managed CI/CD pipelines with CircleCI for reliable and repeatable builds.",
-      "Ensured security and compliance by following OWASP best practices for banking applications, maintaining system integrity and protecting sensitive customer data.",
+      "Worked on backend systems for a banking application using Ruby on Rails and PostgreSQL.",
+      "Designed and implemented REST APIs consumed by frontend and mobile applications.",
+      "Collaborated with designers and product stakeholders to implement user-facing features.",
+      "Deployed applications using Docker and managed CI/CD pipelines with CircleCI, following security best practices.",
     ],
   },
   {
@@ -100,6 +100,14 @@ export const PROJECTS: Project[] = [
     techStack: ["React.js", "TypeScript", "TailwindCSS", "Playwright"],
     githubUrl: "https://github.com/arielberardi/task-management-app",
     image: "/task-management-app.png",
+  },
+  {
+    name: "CV Generator",
+    description:
+      "Lightweight Python tool that transforms your professional data into clean, printable HTML resumes",
+    techStack: ["Python"],
+    githubUrl: "https://github.com/arielberardi/cv-generator",
+    image: "/cv-generator.webp",
   },
 ];
 
