@@ -109,6 +109,13 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/arielberardi/cv-generator",
     image: "/cv-generator.webp",
   },
+  {
+    name: "IMDb Play",
+    description: "Full Stack Streaming application with catalog of movies and series.",
+    techStack: ["Typescript", "Next.js", "Prisma", "Vitest", "Playwright", "Codex/Claude"],
+    githubUrl: "https://github.com/arielberardi/imdb-play",
+    image: "/imdb-play.png",
+  },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
